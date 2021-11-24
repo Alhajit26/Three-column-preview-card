@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+
+section {
+    height: 400px;
+    width: 300px;
+}
+
+
+h1 {
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+p {
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    line-height: 30px;
+}
+
+
+
+body {
+    font-size: 15px;
+}
+
+.sedan {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.suv {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+}
+
+.white-bg {
+    background-color: white;
+}
+
+button {
+    width: 125px;
+    height: 30px;
+    cursor: pointer;
+    color: black;
+    border: none;
+    border-radius: 50px;
+    margin-top: 6em;
+}
+
+.sedan-clr {
+    color: hsl(31, 77%, 52%);
+}
+
+.suv-clr {
+    color: hsl(184, 100%, 22%);
+}
+
+.luxury-clr {
+    color: hsl(179, 100%, 13%);
+    margin-top: 8.2em;
+}
+
+.sedan {
+    padding: 20px 30px;
+}
+
+.suv {
+    padding: 20px 30px;
+}
+
+.luxury {
+    padding: 20px 30px;
+}
